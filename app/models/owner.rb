@@ -1,7 +1,4 @@
-#ruby lear-rails
-
 class Owner
-
 	def name
 		name = 'Foobar Kadigan'
 	end
@@ -12,11 +9,12 @@ class Owner
 
 	def countdown
 		today = Date.today
-		birthdate = Date.new(today.year, birthdate.month, birthdate.day)
-		if birthdate > today
-			countdown = (birthdate - today).to_i
+		birthday = Date.new(today.year, birthdate.month, birthdate.day)
+		if birthday > today
+			countdown = (birthday - today).to_i
 		else
-			countdown = (birthdate.next_year - today).to_i
+			countdown = (birthday.next_year - today).to_i
 		end
 	end
+
 end
