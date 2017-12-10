@@ -53,6 +53,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-
-  root to: "visitors#new" #routes to the visitor controller calling new action
+  resources :contacts, only: [:new, :create]
+  root to: "visitors#new"
 end
