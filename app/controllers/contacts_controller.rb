@@ -11,7 +11,7 @@ class ContactsController < ApplicationController
 			flash[:notice] = "Message sent from #{@contact.name}."
 			redirect_to root_path
 		else
-			redirect :new
+			render :new
 		end
 	end
 
