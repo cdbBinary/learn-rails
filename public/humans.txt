@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    charlie brown -- @cdbbinary
+
+
+# PAST TEAM MEMBERS:
+
+    N/A
+
+# THANKS
+
+    charlie brown -- @cdbbinary
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Gulp, HTML5 Boilerplate, Normalize.css
+
+    Source: https://github.com/h5bp/html5boilerplate.com
